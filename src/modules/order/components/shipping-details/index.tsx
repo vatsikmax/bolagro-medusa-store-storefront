@@ -12,12 +12,12 @@ const ShippingDetails = ({ order }: ShippingDetailsProps) => {
   return (
     <div>
       <Heading level="h2" className="flex flex-row text-3xl-regular my-6">
-        Delivery
+        Доставка
       </Heading>
       <div className="flex items-start gap-x-8">
         <div className="flex flex-col w-1/3" data-testid="shipping-address-summary">
           <Text className="txt-medium-plus text-ui-fg-base mb-1">
-            Shipping Address
+            Адреса доставки
           </Text>
           <Text className="txt-medium text-ui-fg-subtle">
             {order.shipping_address.first_name}{" "}

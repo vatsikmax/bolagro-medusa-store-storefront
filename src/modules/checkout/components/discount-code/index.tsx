@@ -68,7 +68,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 data-testid="gift-card"
               >
                 <Text className="flex gap-x-1 items-baseline">
-                  <span>Code: </span>
+                  <span>Код: </span>
                   <span className="truncate" data-testid="gift-card-code">
                     {gc.code}
                   </span>
@@ -106,7 +106,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 data-testid="discount-row"
               >
                 <Text className="flex gap-x-1 items-baseline txt-small-plus w-4/5 pr-1">
-                  <span>Code:</span>
+                  <span>Код:</span>
                   <span className="truncate" data-testid="discount-code">
                     {discounts[0].code}
                   </span>
@@ -125,7 +125,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 >
                   <Trash size={14} />
                   <span className="sr-only">
-                    Remove discount code from order
+                    Прибрати код знижки із замовлення
                   </span>
                 </button>
               </div>
@@ -140,7 +140,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                 className="txt-medium text-ui-fg-interactive hover:text-ui-fg-interactive-hover"
                 data-testid="add-discount-button"
               >
-                Add gift card or discount code
+                Додати подарункову картку або код знижки
               </button>
               <Tooltip content="You can add multiple gift cards, but only one discount code.">
                 <InformationCircleSolid color="var(--fg-muted)" />
@@ -160,7 +160,7 @@ const DiscountCode: React.FC<DiscountCodeProps> = ({ cart }) => {
                     variant="secondary"
                     data-testid="discount-apply-button"
                   >
-                    Apply
+                    Примінити
                   </SubmitButton>
                 </div>
                 <ErrorMessage

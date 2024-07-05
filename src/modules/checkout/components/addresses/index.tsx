@@ -56,7 +56,7 @@ const Addresses = ({
           level="h2"
           className="flex flex-row text-3xl-regular gap-x-2 items-baseline"
         >
-          Shipping Address
+          Адреса доставки
           {!isOpen && <CheckCircleSolid />}
         </Heading>
         {!isOpen && cart?.shipping_address && (
@@ -66,7 +66,7 @@ const Addresses = ({
               className="text-ui-fg-interactive hover:text-ui-fg-interactive-hover"
               data-testid="edit-address-button"
             >
-              Edit
+              Змінити
             </button>
           </Text>
         )}
@@ -88,7 +88,7 @@ const Addresses = ({
                   level="h2"
                   className="text-3xl-regular gap-x-4 pb-6 pt-8"
                 >
-                  Billing address
+                  Адреса оплати
                 </Heading>
 
                 <BillingAddress cart={cart} countryCode={countryCode} />

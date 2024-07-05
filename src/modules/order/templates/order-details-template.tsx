@@ -27,7 +27,7 @@ const OrderDetailsTemplate: React.FC<OrderDetailsTemplateProps> = ({
           className="flex gap-2 items-center text-ui-fg-subtle hover:text-ui-fg-base"
           data-testid="back-to-overview-button"
         >
-          <XMark /> Back to overview
+          <XMark /> Назад до огляду
         </LocalizedClientLink>
       </div>
       <div

@@ -159,7 +159,7 @@ const CartDropdown = ({
                             className="mt-1"
                             data-testid="cart-item-remove-button"
                           >
-                            Remove
+                            Видалити
                           </DeleteButton>
                         </div>
                       </div>
@@ -168,7 +168,7 @@ const CartDropdown = ({
                 <div className="p-4 flex flex-col gap-y-4 text-small-regular">
                   <div className="flex items-center justify-between">
                     <span className="text-ui-fg-base font-semibold">
-                      Subtotal{" "}
+                      Сума{" "}
                       <span className="font-normal">(excl. taxes)</span>
                     </span>
                     <span
@@ -189,7 +189,7 @@ const CartDropdown = ({
                       size="large"
                       data-testid="go-to-cart-button"
                     >
-                      Go to cart
+                      В корзину
                     </Button>
                   </LocalizedClientLink>
                 </div>
@@ -200,12 +200,12 @@ const CartDropdown = ({
                   <div className="bg-gray-900 text-small-regular flex items-center justify-center w-6 h-6 rounded-full text-white">
                     <span>0</span>
                   </div>
-                  <span>Your shopping bag is empty.</span>
+                  <span>У вашій корзині немає товарів.</span>
                   <div>
                     <LocalizedClientLink href="/store">
                       <>
-                        <span className="sr-only">Go to all products page</span>
-                        <Button onClick={close}>Explore products</Button>
+                        <span className="sr-only">До всіх товарів</span>
+                        <Button onClick={close}>Вивчати товари</Button>
                       </>
                     </LocalizedClientLink>
                   </div>
