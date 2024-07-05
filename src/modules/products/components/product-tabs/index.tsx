@@ -93,19 +93,14 @@ const ShippingInfoTab = () => {
           <div>
             <span className="font-semibold">Fast delivery</span>
             <p className="max-w-sm">
-              Your package will arrive in 3-5 business days at your pick up
-              location or in the comfort of your home.
+              Ваш пакунок прибуде за 3-5 робочих днів у вказане вами місце
             </p>
           </div>
         </div>
         <div className="flex items-start gap-x-2">
           <Refresh />
           <div>
-            <span className="font-semibold">Simple exchanges</span>
-            <p className="max-w-sm">
-              Is the fit not quite right? No worries - we&apos;ll exchange your
-              product for a new one.
-            </p>
+            <span className="font-semibold">Проста заміна</span>
           </div>
         </div>
         <div className="flex items-start gap-x-2">
@@ -113,9 +108,7 @@ const ShippingInfoTab = () => {
           <div>
             <span className="font-semibold">Easy returns</span>
             <p className="max-w-sm">
-              Just return your product and we&apos;ll refund your money. No
-              questions asked – we&apos;ll do our best to make sure your return
-              is hassle-free.
+              Просто поверніть ваш товар і ми повернемо вам гроші.
             </p>
           </div>
         </div>
